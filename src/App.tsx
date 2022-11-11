@@ -1,20 +1,19 @@
 import React, {FC} from 'react';
 
-import {MainComponent} from "./pages/main/main";
+import {MainComponent} from "./pages/jobBoard/JobBoard";
 
 interface AppProps {
-
 }
 
-export const App: FC<AppProps> =() => {
+export const App: FC<AppProps> = () => {
 
 
-  return (
+    return (
         <div>
             <MainComponent/>
         </div>
 
-  );
+    );
 }
 
 
